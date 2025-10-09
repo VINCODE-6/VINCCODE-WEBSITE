@@ -1,3 +1,4 @@
+console.log("JS loaded")
 const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
 let index = 0;
@@ -84,3 +85,4 @@ document.addEventListener('DOMContentLoaded', initializeCarousel);
 window.addEventListener('resize', () => {
   showSlide(index); // Re-render current slide to adjust layout
 });
+
